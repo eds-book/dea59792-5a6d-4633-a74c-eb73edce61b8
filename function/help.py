@@ -3,12 +3,12 @@ import pandas as pd
 
 def geo_to_local(lat, lon, ref_lat, ref_lon, M_PER_DEG):
     """
-    将经纬度坐标 (lat, lon) 转换为以 ref_lat/ref_lon 为中心的局部平面坐标 (x, y)，单位：米。
-    参数：
-    - lat, lon: 原始经纬度坐标（可以是标量或数组）
-    - ref_lat, ref_lon: 参考中心坐标
-    返回：
-    - x, y: 转换后的坐标（米）
+    Convert latitude and longitude coordinates (lat, lon) to local plane coordinates (x, y) centred on ref_lat/ref_lon, in metres.  
+    Parameters:
+    - lat, lon: Original latitude and longitude coordinates (can be scalars or arrays)
+    - ref_lat, ref_lon: Reference centre coordinates
+    Returns:
+    - x, y: Converted coordinates (metres)
     """
     lat = np.array(lat)
     lon = np.array(lon)
