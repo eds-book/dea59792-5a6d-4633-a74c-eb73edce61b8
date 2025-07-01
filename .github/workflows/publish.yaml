@@ -2,7 +2,7 @@ name: publish
 
 on:
   push:
-    branches: [main, postprint]
+    branches: [main, preparation, review, postprint]
     paths-ignore:
       - 'README.md'
 

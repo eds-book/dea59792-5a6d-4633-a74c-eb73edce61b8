@@ -1,0 +1,75 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: dea59792-5a6d-4633-a74c-eb73edce61b8
+  title: Vehicle-based observation data processing and simple simulation experiments (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: Vehicle-based observation data processing and simple simulation experiments
+  abstract: Notebook developed to demonstrate how to process and simulate observational data of greenhouses emissions from in-vehicle instruments.
+  authors:
+    - id: lyang
+      name: Lucky J. Yang
+      orcid: 0009-0006-4008-6197
+      corresponding: true
+      email: lucky_j.yang@ieee.org
+      github: thinkswhat
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - westlake
+#  reviewers:
+#    - id: TBA
+#      name: TBA
+#      orcid: TBA
+#      github: TBA
+#      roles:
+#        - Writing – review & editing
+#      affiliations:
+#        - TBA
+#  editors:
+#    - id: TBA
+#      name: TBA
+#      orcid: TBA
+#      github: TBA
+#      roles:
+#        - Writing – review & editing
+#      affiliations:
+#        - TBA
+  affiliations:
+    - id: westlake
+      name: Westlake University
+      department: Atmospheric Environment Research Lab
+  subject: Emissions
+  keywords:
+    - Emissions
+    - Exploration
+    - Standard
+    - Python
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Standard
+#  thumbnail: images/thumbnail.png
+  requirements:
+    - .binder/environment.yml
+  #doi: 10.5281/zenodo.XXXXXXX
+  github: https://github.com/eds-book/dea59792-5a6d-4633-a74c-eb73edce61b8
+  jupyter:
+    binder:
+      repo: eds-book/dea59792-5a6d-4633-a74c-eb73edce61b8
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: YYYY-MM-DD
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: README.md
+    - file: notebook.ipynb
+site:
+  template: book-theme
