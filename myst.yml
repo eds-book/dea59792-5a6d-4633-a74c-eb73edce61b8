@@ -81,7 +81,7 @@ project:
   license:
     content: CC-BY-4.0
     code: MIT
-  date: YYYY-MM-DD
+  date: 2025-09-22
   toc:
     - file: README.md
     - file: notebook.ipynb
