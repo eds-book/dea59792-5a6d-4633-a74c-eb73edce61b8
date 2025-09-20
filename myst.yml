@@ -20,24 +20,32 @@ project:
         - Visualization
       affiliations:
         - westlake
-#  reviewers:
-#    - id: TBA
-#      name: TBA
-#      orcid: TBA
-#      github: TBA
-#      roles:
-#        - Writing – review & editing
-#      affiliations:
-#        - TBA
-#  editors:
-#    - id: TBA
-#      name: TBA
-#      orcid: TBA
-#      github: TBA
-#      roles:
-#        - Writing – review & editing
-#      affiliations:
-#        - TBA
+  reviewers:
+    - id: zliu
+      name: Zehao Liu
+      orcid: 0009-0000-3855-6352
+      github: Tc99m
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - hangzhou
+    - id: rpedruzzi
+      name: Rizzieri Pedruzzi
+      orcid: 0000-0003-0852-0396
+      github: rpedruzzi
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - rio
+  editors:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      github: acocac
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - turing
   affiliations:
     - id: westlake
       name: Westlake University
