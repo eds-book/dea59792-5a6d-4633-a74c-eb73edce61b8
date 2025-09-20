@@ -69,7 +69,7 @@ project:
     url: https://www.edsbook.org
   issue:
     name: Standard
-#  thumbnail: images/thumbnail.png
+  thumbnail: images/thumbnail.png
   requirements:
     - .binder/environment.yml
   #doi: 10.5281/zenodo.XXXXXXX
