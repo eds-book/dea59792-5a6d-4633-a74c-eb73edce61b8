@@ -50,6 +50,13 @@ project:
     - id: westlake
       name: Westlake University
       department: Atmospheric Environment Research Lab
+    - id: hangzhou
+      name: Hangzhou Dianzi University
+    - id: rio
+      name: Rio de Janeiro State University
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
   subject: Emissions
   keywords:
     - Emissions
