@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: Please cite the following works when using this project.
+abstract: >-
+  Notebook developed to demonstrate how to process and simulate observational
+  data of greenhouses emissions from in-vehicle instruments.
+title: >-
+  Vehicle-based observation data processing and simple simulation experiments
+  (Jupyter Notebook) published in the Environmental Data Science book
+authors:
+  - family-names: Yang
+    given-names: Lucky J.
+    affiliation: Westlake University
+    orcid: 0009-0006-4008-6197
+    email: lucky_j.yang@ieee.org
+date-released: '2025-09-22'
+contact:
+  - family-names: Yang
+    given-names: Lucky J.
+    affiliation: Westlake University
+    orcid: 0009-0006-4008-6197
+    email: lucky_j.yang@ieee.org
+identifiers:
+  - description: Open review report for this notebook
+    type: url
+    value: https://github.com/eds-book/notebooks-reviews/issues/12
+keywords:
+  - Emissions
+  - Exploration
+  - Standard
+  - Python
+license: MIT
+license-url: https://opensource.org/license/MIT
+repository: https://github.com/eds-book/dea59792-5a6d-4633-a74c-eb73edce61b8
+type: software
+version: v2025.09.3

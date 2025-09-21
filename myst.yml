@@ -20,28 +20,43 @@ project:
         - Visualization
       affiliations:
         - westlake
-#  reviewers:
-#    - id: TBA
-#      name: TBA
-#      orcid: TBA
-#      github: TBA
-#      roles:
-#        - Writing – review & editing
-#      affiliations:
-#        - TBA
-#  editors:
-#    - id: TBA
-#      name: TBA
-#      orcid: TBA
-#      github: TBA
-#      roles:
-#        - Writing – review & editing
-#      affiliations:
-#        - TBA
+  reviewers:
+    - id: zliu
+      name: Zehao Liu
+      orcid: 0009-0000-3855-6352
+      github: Tc99m
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - hangzhou
+    - id: rpedruzzi
+      name: Rizzieri Pedruzzi
+      orcid: 0000-0003-0852-0396
+      github: rpedruzzi
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - rio
+  editors:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      github: acocac
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - turing
   affiliations:
     - id: westlake
       name: Westlake University
       department: Atmospheric Environment Research Lab
+    - id: hangzhou
+      name: Hangzhou Dianzi University
+    - id: rio
+      name: Rio de Janeiro State University
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
   subject: Emissions
   keywords:
     - Emissions
@@ -54,7 +69,7 @@ project:
     url: https://www.edsbook.org
   issue:
     name: Standard
-#  thumbnail: images/thumbnail.png
+  thumbnail: images/thumbnail.png
   requirements:
     - .binder/environment.yml
   #doi: 10.5281/zenodo.XXXXXXX
@@ -66,9 +81,25 @@ project:
   license:
     content: CC-BY-4.0
     code: MIT
-  date: YYYY-MM-DD
+  date: 2025-09-22
   toc:
     - file: README.md
     - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v2025.09.3
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+      identifiers:
+        - description: "Open review report for this notebook"
+          type: url
+          value: "https://github.com/eds-book/notebooks-reviews/issues/12"
+  bibliography:
+    - references.bib
 site:
   template: book-theme
