@@ -5,7 +5,7 @@ extends:
 project:
   id: dea59792-5a6d-4633-a74c-eb73edce61b8
   title: Vehicle-based observation data processing and simple simulation experiments (Jupyter Notebook) published in the Environmental Data Science book
-  short_title: Vehicle-based observation data processing and simple simulation experiments
+  short_title: Vehicle-based methane emissions (Jiliang University)
   abstract: Notebook developed to demonstrate how to process and simulate observational data of greenhouses emissions from in-vehicle instruments.
   authors:
     - id: lyang
