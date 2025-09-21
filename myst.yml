@@ -93,7 +93,7 @@ project:
     - format: cff
       type: software
       version: v2025.09.2
-      license: MITs
+      license: MIT
       license-url: https://opensource.org/license/MIT
       identifiers:
         - description: "Open review report for this notebook"
